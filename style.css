@@ -103,6 +103,7 @@ nav ul {
 	background: #131313;
 	display: flex;
 	justify-content: space-between;
+	margin: 0 auto;
 }
 
 .advantages p {
