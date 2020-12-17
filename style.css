@@ -103,22 +103,28 @@ nav ul {
 	background: #131313;
 	display: flex;
 	justify-content: space-between;
-	margin: 0 auto;
 }
 
 .advantages p {
 	margin-top: 40px;
-	margin: 0 auto;
 }
 
 
 .content-bottom {
 	display:flex;
-	align-items:flex-start;
-	flex-wrap: wrap;
+	justify-content:space-between;
+	flex-direction: column;
 	background:#ffffff;
 	color: #222222;
 	padding: 80px 160px 80px 160px;
+}
+.content-bottom-1{
+	display:flex;
+justify-content: space-between;
+}
+.content-bottom-2{
+	display:flex;
+	justify-content: space-between;
 }
 .content-ul {
 	font-family: Verdana;
@@ -136,8 +142,31 @@ nav ul {
 	margin-top: 60px;
 }
 .cobra{
+	width:490px;
 	
 }
 .content-ul-li{
 	margin-bottom: 30px;
+}
+.cont-bot{
+	width:453px;
+}
+span {
+
+	font-weight:bold;
+}
+.form {
+	background:#f0f0f0;
+	color: #222222;
+	padding: 80px 160px 80px 160px;
+	display:flex;
+	justify-content:space-between;
+}
+.form h1{
+	font-family: "Courier New";
+	font-size: 24px;
+}
+.form p{
+	font-family: Sans-serif;
+	font-size: 14px;
 }
