@@ -218,7 +218,7 @@
   height: 36px;
   /*border: 1px solid #000000;
   border-radius: 3px;*/
-  transition: 0.4s;
+transform: scale(1.125);
 }
 .social-networks-2:hover{
 margin-left: 0px;
@@ -226,7 +226,7 @@ width: 36px;
 height: 36px;
 /*border: 1px solid #000000;
 border-radius: 3px;*/
-transition: 0.4s;
+transform: scale(1.125);
 } 
 .city{
   padding-left: 8px;
